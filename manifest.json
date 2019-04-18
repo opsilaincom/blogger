@@ -1,7 +1,7 @@
 {
   "name": "OpsiLain.com",
   "short_name": "OpsiLain.com",
-  "start_url": "https://www.opsilain.com",
+  "start_url": "https://www.opsilain.com/?m=1",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#fff",
