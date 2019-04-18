@@ -1,0 +1,38 @@
+{
+  "name": "OpsiLain.com",
+  "short_name": "OpsiLain.com",
+  "start_url": "https://www.opsilain.com",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "Opsi Lain, Cari Tau, Solusi Masalah, Artikel Menarik Masa Kini. Ditulis secara unik dan menarik sehingga mudah dipahami oleh semua kalangan.",
+  "icons": [{
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s48/opsilain.com%2B-%2BCopy.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s72/opsilain.com%2B-%2BCopy.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s96/opsilain.com%2B-%2BCopy.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s144/opsilain.com%2B-%2BCopy.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s168/opsilain.com%2B-%2BCopy.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s192/opsilain.com%2B-%2BCopy.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-4AFI6uBMGsI/XKWchN9EZ4I/AAAAAAAADls/OeCxWVkyaV0lr713JEZJy2o4AMRxSJLtQCLcBGAs/s512/opsilain.com%2B-%2BCopy.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
