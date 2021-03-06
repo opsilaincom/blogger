@@ -1,10 +1,8 @@
 function loophalaman(a) {
 	var e = "";
-	nomerkiri = parseInt(numshowpage / 2), nomerkiri == numshowpage - nomerkiri && (numshowpage = 2 * nomerkiri + 1), mulai = nomerhal - nomerkiri, mulai < 1 && (mulai = 1), maksimal = parseInt(a / postperpage) + 1, maksimal - 1 == a / postperpage && (maksimal -= 1), akhir = mulai + numshowpage - 1, akhir > maksimal && (akhir = maksimal), e += "<span class='showpageOf'> " + nomerhal + " / " + maksimal + "</span>";
 	var s = parseInt(nomerhal) - 1;
 	nomerhal > 1 && (e += 2 == nomerhal ? "page" == jenis ? '<span class="showpage"><a href="' + home_page + '">' + upPageWord + "</a></span>" : '<span class="showpageNum"><a href="/search/label/' + lblname1 + "?&max-results=" + postperpage + '">' + upPageWord + "</a></span>" : "page" == jenis ? '<span class="showpageNum"><a href="#" onclick="redirectpage(' + s + ');return false">' + upPageWord + "</a></span>" : '<span class="showpageNum"><a href="#" onclick="redirectlabel(' + s + ');return false">' + upPageWord + "</a></span>"), mulai > 1 && (e += "page" == jenis ? '<span class="showpageNum"><a href="' + home_page + '">1</a></span>' : '<span class="showpageNum"><a href="/search/label/' + lblname1 + "?&max-results=" + postperpage + '">1</a></span>'), mulai > 2 && (e += "");
 	for (var r = mulai; r <= akhir; r++) e += nomerhal == r ? '<span class="showpagePoint">' + r + "</span>" : 1 == r ? "page" == jenis ? '<span class="showpageNum"><a href="' + home_page + '">1</a></span>' : '<span class="showpageNum"><a href="/search/label/' + lblname1 + "?&max-results=" + postperpage + '">1</a></span>' : "page" == jenis ? '<span class="showpageNum"><a href="#" onclick="redirectpage(' + r + ');return false">' + r + "</a></span>" : '<span class="showpageNum"><a href="#" onclick="redirectlabel(' + r + ');return false">' + r + "</a></span>"; var n = parseInt(nomerhal) + 1;
-	
 	for (var t = document.getElementsByName("pageArea"), l = document.getElementById("blog-pager"), p = 0; p < t.length; p++) t[p].innerHTML = e;
 	t && t.length > 0 && (e = ""), l && (l.innerHTML = e)
 }
